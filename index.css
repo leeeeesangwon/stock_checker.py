@@ -1,0 +1,7 @@
+stock = int (input("在庫数を入力してください："))
+if stock >= 5:
+    print("👉 在庫は充分あります")
+elif stock >= 1:
+    print("👉 残りわずかです")
+else:
+    print("👉 在庫切れです")
